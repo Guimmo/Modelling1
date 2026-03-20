@@ -20,6 +20,7 @@ class ColorPoint(Point):
         """
         return f"{self.color}: P<{self.x},{self.y}>"
 
+if __name__=="__main__": #guard against import runs
 p1=ColorPoint(1,2,"red")
 p2=ColorPoint(3,4,"green")
 p3=ColorPoint(5,6,"blue")
